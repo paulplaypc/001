@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MOM</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+	<div class="box">
+		
+		<div class="col-left-mask"></div
+		><div class="col-right-mask"></div>	
+		<div class="ribbon-col"></div>
+		<div class="ribbon-row"></div>
+		<div class="btn"></div>
+	</div>
+	<div class="row">
+			<div class="container">
+				<div class="title ani-colorBlock">
+					<h1 class="title-text">Happy</h1>
+				</div>
+				<div class="description ani-colorBlock">
+					<h2 class="description-text">
+					Birthday</h2>
+				</div>
+				<div class="day">2/4</div>
+			</div>
+	</div>
+
+</div>
+<script src="plugins/jquery-3.2.1.min.js"></script>
+	<script>
+		$(".btn").on("click",function(){
+			$('.wrapper').addClass('animated');
+			$(this).css("display","none");
+		})
+</script>		
+</body>
+</html>
